@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Azmii Haniifah Portfolio</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gradient-to-b from-pink-100 to-blue-100 text-gray-800 font-sans">
+
+  <!-- HEADER -->
+  <header class="bg-white shadow-md sticky top-0 z-50">
+    <div class="container mx-auto flex justify-between items-center px-6 py-4">
+      <h1 class="text-2xl font-bold text-blue-900">Azmii</h1>
+      <nav>
+        <ul class="flex gap-6 font-semibold text-gray-700">
+          <li><a href="#home" class="hover:text-blue-500">Home</a></li>
+          <li><a href="#about" class="hover:text-blue-500">About</a></li>
+          <li><a href="#services" class="hover:text-blue-500">Services</a></li>
+          <li><a href="#projects" class="hover:text-blue-500">Projects</a></li>
+          <li><a href="#blog" class="hover:text-blue-500">Blog</a></li>
+          <li><a href="#contact" class="hover:text-blue-500">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- HERO -->
+  <section id="home" class="flex flex-col md:flex-row items-center justify-between px-8 py-20 bg-gradient-to-r from-blue-100 to-pink-100">
+    <div class="md:w-1/2 mb-8 md:mb-0">
+      <h1 class="text-4xl font-bold mb-4">Hi, I'm Azmii Haniifah</h1>
+      <p class="text-lg">Welcome to my professional space where passion meets skill. Dive deep into my works and get to know who I really am.</p>
+      <button onclick="document.getElementById('contact').scrollIntoView({ behavior: 'smooth' })" class="mt-6 bg-blue-900 text-white px-6 py-2 rounded hover:bg-blue-700">Get My Information</button>
+    </div>
+    <img src="1.jpg" alt="Azmii Avatar" class="w-72 h-72 rounded-full object-cover shadow-xl" />
+  </section>
+
+  <!-- PHOTO SECTION -->
+  <section class="flex flex-col items-center text-center bg-gradient-to-b from-blue-100 to-pink-200 py-20">
+    <img src="4.jpg" alt="Azmii Haniifah" class="w-72 h-72 rounded-full object-cover shadow-xl mb-6" />
+    <p class="max-w-2xl text-lg mb-6">Hi! I’m Azmii, an IT Professional with a passion for web development, system analysis, and creating efficient digital solutions. I'm deeply invested in crafting seamless user experiences and always eager to learn new technologies to stay ahead in this dynamic field.</p>
+    <a href="#about" class="bg-blue-900 text-white px-6 py-2 rounded hover:bg-blue-700">Click Me to Know More</a>
+  </section>
+
+  <!-- ABOUT -->
+  <section id="about" class="py-20 px-8">
+    <h2 class="text-3xl font-bold text-center text-blue-900 mb-6">About Me</h2>
+    <p class="max-w-3xl mx-auto text-center text-lg">I am a dedicated IT Professional with a solid foundation in software development, UI/UX design, and backend systems. My journey in tech started with curiosity and quickly turned into a lifelong commitment to mastering the craft. I thrive in collaborative environments and love turning ideas into reality using code. In my spare time, I enjoy reading tech blogs, hiking, and experimenting with design tools.</p>
+  </section>
+
+  <!-- SERVICES -->
+  <section id="services" class="py-20 bg-white">
+    <div class="container mx-auto text-center">
+      <h2 class="text-3xl font-bold text-blue-900 mb-10">Services</h2>
+      <div class="grid md:grid-cols-2 gap-10">
+        <div class="bg-blue-50 p-6 rounded-lg shadow-md">
+          <h3 class="text-xl font-semibold mb-2">UI/UX Design</h3>
+          <p class="text-gray-700">I craft intuitive and engaging interfaces for websites and mobile applications, ensuring seamless user experiences.</p>
+        </div>
+        <div class="bg-blue-50 p-6 rounded-lg shadow-md">
+          <h3 class="text-xl font-semibold mb-2">Web Development</h3>
+          <p class="text-gray-700">From front-end to back-end, I build responsive, modern, and dynamic websites with the latest web technologies.</p>
+        </div>
+        <div class="bg-blue-50 p-6 rounded-lg shadow-md">
+          <h3 class="text-xl font-semibold mb-2">Mobile App Development</h3>
+          <p class="text-gray-700">I design and develop mobile applications that provide a smooth, user-friendly experience on both Android and iOS platforms.</p>
+        </div>
+        <div class="bg-blue-50 p-6 rounded-lg shadow-md">
+          <h3 class="text-xl font-semibold mb-2">Consultation & Strategy</h3>
+          <p class="text-gray-700">Offering expert advice on digital solutions and strategies to improve business processes and user engagement.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section id="projects" class="py-20 bg-gray-100">
+    <div class="container mx-auto text-center">
+      <h2 class="text-3xl font-bold text-blue-900 mb-10">Projects</h2>
+      <div class="grid md:grid-cols-2 gap-8">
+        <div class="bg-white rounded-lg shadow-md p-6">
+          <h3 class="text-xl font-semibold mb-2">E-Commerce Website</h3>
+          <p class="text-gray-600">A fully responsive e-commerce platform designed with React and Node.js to enhance user shopping experience and simplify order management.</p>
+        </div>
+        <div class="bg-white rounded-lg shadow-md p-6">
+          <h3 class="text-xl font-semibold mb-2">Weather Mobile App</h3>
+          <p class="text-gray-600">A mobile application for real-time weather monitoring with an intuitive UI and real-time weather data using external APIs.</p>
+        </div>
+        <div class="bg-white rounded-lg shadow-md p-6">
+          <h3 class="text-xl font-semibold mb-2">Inventory Management System</h3>
+          <p class="text-gray-600">A web-based system for inventory and sales tracking, providing real-time analytics and stock alerts for small businesses.</p>
+        </div>
+        <div class="bg-white rounded-lg shadow-md p-6">
+          <h3 class="text-xl font-semibold mb-2">Personal Blog Platform</h3>
+          <p class="text-gray-600">A custom-designed blog platform with markdown support, dark mode, and social sharing features to empower content creators.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- BLOG -->
+  <section id="blog" class="py-20 bg-gray-100">
+    <div class="container mx-auto text-center">
+      <h2 class="text-3xl font-bold text-blue-900 mb-10">Latest Blog Posts</h2>
+      <div class="grid md:grid-cols-2 gap-8">
+        <div class="bg-white p-6 rounded-lg shadow-md">
+          <h3 class="text-xl font-semibold mb-2">5 Tips for Better UI/UX Design</h3>
+          <p class="text-gray-600">Discover key strategies to improve your UI/UX skills and create more user-centered products.</p>
+        </div>
+        <div class="bg-white p-6 rounded-lg shadow-md">
+          <h3 class="text-xl font-semibold mb-2">How to Stay Updated with Tech Trends</h3>
+          <p class="text-gray-600">Staying current in tech is essential—here’s how I keep up and how you can too.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact" class="py-20 px-8 bg-white">
+    <div class="max-w-2xl mx-auto text-center">
+      <h2 class="text-3xl font-bold text-blue-900 mb-6">Contact Me</h2>
+      <p class="text-lg mb-6">If you want to get in touch, feel free to reach out via the details below!</p>
+
+      <!-- Contact Info -->
+      <div class="space-y-4">
+        <!-- Email -->
+        <div>
+          <p class="text-lg font-semibold text-gray-800">Email</p>
+          <p class="text-gray-600">
+            <a href="mailto:azmiihaniif@gmail.com" class="text-blue-600 hover:underline">azmiihaniif@gmail.com</a>
+          </p>
+        </div>
+
+        <!-- Phone -->
+        <div>
+          <p class="text-lg font-semibold text-gray-800">Phone</p>
+          <p class="text-gray-600">
+            <a href="tel:+1234567890" class="text-blue-600 hover:underline">+1 234 567 890</a>
+          </p>
+        </div>
+
+        <!-- Instagram -->
+        <div>
+          <p class="text-lg font-semibold text-gray-800">Instagram</p>
+          <p class="text-gray-600">
+            <a href="https://instagram.com/azmii.hniifah" target="_blank" class="text-blue-600 hover:underline">@azmii.hniifah</a>
+          </p>
+        </div>
+
+        <!-- LinkedIn -->
+        <div>
+          <p class="text-lg font-semibold text-gray-800">LinkedIn</p>
+          <p class="text-gray-600">
+            <a href="https://linkedin.com/in/azmi-haniifah" target="_blank" class="text-blue-600 hover:underline">linkedin.com/in/azmii-haniifah</a>
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="bg-gray-900 text-white text-center py-6">
+    <p>&copy; 2025 Azmii Haniifah. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>

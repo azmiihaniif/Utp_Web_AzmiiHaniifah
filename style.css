@@ -1,0 +1,118 @@
+body {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    background: linear-gradient(to right, #e6f0ff, #ffffff);
+    color: #333;
+  }
+  
+  nav {
+    display: flex;
+    justify-content: flex-end;
+    gap: 25px;
+    padding: 20px;
+    background: transparent;
+    margin-right: 50px;
+  }
+  
+  nav a {
+    text-decoration: none;
+    font-weight: 600;
+    color: #333;
+    transition: color 0.3s ease;
+  }
+  
+  nav a:hover {
+    color: #fd788b;
+  }
+  
+  .hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 80px 10%;
+  }
+  
+  .hero-text {
+    max-width: 500px;
+  }
+  
+  .hero-text h1 {
+    font-size: 3em;
+    color: #222;
+  }
+  
+  .hero-text p {
+    font-size: 1.2em;
+    margin: 20px 0;
+  }
+  
+  .hero-buttons {
+    display: flex;
+    gap: 15px;
+    margin-top: 20px;
+  }
+  
+  .hero-buttons a {
+    padding: 12px 25px;
+    border-radius: 8px;
+    border: 2px solid #333;
+    text-decoration: none;
+    font-weight: 600;
+    transition: 0.3s;
+  }
+  
+  .hero-buttons a:first-child {
+    background-color: #333;
+    color: #fff;
+  }
+  
+  .hero-buttons a:last-child:hover {
+    background-color: #fd788b;
+    color: white;
+    border-color: #fd788b;
+  }
+  
+  .hero img {
+    width: 300px;
+    border-radius: 50%;
+  }
+  
+  section {
+    padding: 50px 20px;
+    max-width: 960px;
+    margin: auto;
+  }
+  
+  h2, h3 {
+    color: #fd788b;
+    margin-bottom: 20px;
+  }
+  
+  .portfolio-item {
+    margin-bottom: 40px;
+  }
+  
+  .contact-form input,
+  .contact-form textarea {
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0;
+    border: 1px solid #fd788b;
+    border-radius: 5px;
+    font-size: 1em;
+  }
+  
+  .contact-form button {
+    background-color: #fd788b;
+    color: white;
+    border: none;
+    padding: 12px 25px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+    transition: background-color 0.3s;
+  }
+  
+  .contact-form button:hover {
+    background-color: #fc5e73;
+  }
